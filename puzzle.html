@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Jigsaw Puzzle</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Online Jigsaw Puzzle with 3 Variations. Contains a timer and validation to check that the puzzle is correct">
+   <meta name="author" content="Katsiaryna Aliashkevich">
+   <link href="puzzle.css" rel="stylesheet">
+   <script defer src="puzzle.js" type="text/javascript"></script>
+</head> 
+
+<body onload = "get_img(); stopWatch()">
+   
+   <h2> Jigsaw Puzzle </h2>
+
+   <img id = "grid" ondragstart = "{return false;}" style = "position: absolute; top: 70px; left: 150px" src="puzzle1/puzzleback.gif"
+      alt = "Puzzle Grid">
+   
+   <div id="time">
+      <span id="timer"> Timer </span><br>
+      <span class="digit" id="min">
+        00</span>
+      <span class="txt">Min &nbsp; </span>
+      <span class="digit" id="sec">
+        00</span>
+      <span class="txt">Sec</span>
+   </div>
+
+   <div id="buttons">
+      <button class="btn" id="start" disabled >Start</button>
+      <button class="btn" id="stop"> Stop</button>
+      <button class="btn" id="reset" disabled> Reset</button>
+   </div>
+
+   <div id="doneBtn">
+      <button id="done" >Done</button><br>
+      <span id= "doneText"></span>
+   </div>
+
+   <div id ="pieces">
+      <img id = "0" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "1" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "2" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "3" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "4" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "5" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "6" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "7" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "8" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "9" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "10" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+      <img id = "11" ondragstart = "{return false;}" onmousedown = "grabber(event);" src="null"
+         alt = "Puzzle Piece">
+   </div>
+   
+</body>
+</html>

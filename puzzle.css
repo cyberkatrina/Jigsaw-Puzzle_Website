@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(170, 230, 255);
+    font-family: Arial, sans-serif;
+}
+
+#time {
+    position: absolute;
+    left: 587px;
+    top: 175px;
+}
+
+#timer {
+    margin-left: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#done {
+    font-size: large;
+    position: absolute;
+    top: 390px;
+    left: 320px;
+}
+
+#doneText {
+    position: absolute;
+    top: 420px;
+    left: 270px;
+}
+
+h2 {
+    margin-left: 270px;
+}
+
+#buttons {
+    position: absolute;
+    left: 575px;
+    top: 225px;
+}
