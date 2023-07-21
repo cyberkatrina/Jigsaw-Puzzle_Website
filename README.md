@@ -1,6 +1,6 @@
 # Jigsaw-Puzzle_Website
 
-LINK : [https://spring-2023.cs.utexas.edu/cs329e-bulko/cyberkat/HW11/puzzle.html](https://www.cs.utexas.edu/~cyberkat/HW11/puzzle.html)
+LINK : https://www.cs.utexas.edu/~cyberkat/HW11/puzzle.html
 
 Jigsaw Puzzle with Timer and Validation made with JavaScript, HTML and CSS. 
 Uploaded to the server with Linux Terminal and Vi.
