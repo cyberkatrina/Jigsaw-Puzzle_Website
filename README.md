@@ -1,7 +1,5 @@
 # Jigsaw-Puzzle_Website
 
-LINK : https://www.cs.utexas.edu/~cyberkat/HW11/puzzle.html
-
 3 different Jigsaw Puzzles with Timer and Validation made with JavaScript, HTML and CSS. 
 Uploaded to the server with Linux Terminal and Vi.
 
